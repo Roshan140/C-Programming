@@ -1,0 +1,25 @@
+
+
+#include <stdio.h>
+
+void swap(int *a, int *b)
+{
+    int temp;
+    temp=*a;
+    *a=*b;
+    *b=temp;
+    printf("value within function %d\n",*a);
+    printf("value within function %d\n",*b);
+
+    
+}
+void main(){
+    int a,b;
+    printf("enter\n");
+    scanf("%d%d",&a,&b);
+    printf("before swaping %d\n",a);
+     printf("before swaping %d\n",b);
+     swap(&a,&b);
+      printf("after swaping %d\n",a);
+       printf("after swaping %d\n",b);
+}

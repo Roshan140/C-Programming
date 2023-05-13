@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main(){
+    int a,b,s=0;
+   printf("enter");
+            scanf("%d%d",&a,&b);
+  char ch;
+  printf("enter");
+  scanf(" %c",&ch);
+  switch(ch){
+    case '+' :
+    s=a+b;
+    printf("%d",s);
+    break;
+    case '-' :
+    s=a-b;
+    printf("%d",s);
+    break;
+       case '*' :
+    s=a*b;
+    printf("%d",s);
+    break;
+    case '/' :
+    s=a/b;
+    printf("%d",s);
+    break;
+      default:printf("please enter correctly");
+    return 0;
+    }
+  }

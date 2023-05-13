@@ -1,0 +1,10 @@
+#include<stdio.h>// It is used to include printf and scanf in program
+int main(){//it is the main function where the code is written you can write void main() also
+    int a,b,result=0;// used to declear integer variable
+    
+    printf("Enter any two number");//used to print any things
+    scanf("%d%d",&a,&b);// used to store values
+    result = a + b;//perform arithmetic operation
+    printf("%d",result);//print result
+    return 0;// it means the program is over
+}

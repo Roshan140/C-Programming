@@ -1,0 +1,17 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int n,r,c=0;
+    printf("enter");
+    scanf("%d",&n);
+    do{
+        r=n%10;
+        c=c+1;
+        n=n/10;
+    }
+while(n!=0);
+printf("%d",c);
+    return 0;
+}

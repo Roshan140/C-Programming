@@ -1,0 +1,15 @@
+//gets() used in the absence of scanf for only strings
+//puts() used in the absence of printf  for only strings
+#include <stdio.h>
+
+int main() {
+  char str[50];
+
+  printf("Enter a string: ");
+  gets(str);
+
+  printf("The string entered is: ");
+  puts(str);
+
+  return 0;
+}
